@@ -2,8 +2,8 @@ package gexpect
 
 import (
 	"errors"
-	shell "github.com/kballard/go-shellquote"
-	"github.com/kr/pty"
+	shell "go-shellquote"
+	"pty"
 	"io"
 	"os"
 	"os/exec"
